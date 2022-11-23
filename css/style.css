@@ -1,0 +1,27 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* Utils */
+.row {
+    padding: 5px;
+    text-align: center;
+}
+
+.row > [class^='col'] {
+    min-height: 40px;
+    background-color: aqua;
+    border: 1px solid white;
+}
+
+.col{
+    padding: 5px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
